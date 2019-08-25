@@ -1,0 +1,17 @@
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background: url(https://images.alphacoders.com/201/201831.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}

@@ -9,8 +9,11 @@ function displayData(data) {
   const imagelink = data.sprites.front_default;
   console.log(imagelink);
   const image = document.createElement("img");
-  image.setAttribute("src", imagelink);
+  image.setAttribute("id",'imageid');
+  image.setAttribute("src",imagelink);
   document.body.appendChild(image);
+  const namelink = data.name;
+  console.log(namelink)
 }
 
 const searchbutton = document.getElementById("searchbutton");

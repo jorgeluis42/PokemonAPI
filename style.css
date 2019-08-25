@@ -10,6 +10,45 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.red {
+  color: white;
+  font-size: 5px;
+  margin: 20px;
+}
+
+#searchlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 250px;;
+  width: 300px;
+}
+
+#search{
+ border-radius: 8px;
+ border-color:transparent;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+#pokeball {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  padding-bottom: 2px;
+  padding-right: 3px;
+}
+#searchbutton {
+ background-color: white;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+#imageid {
+  border: #FFDC00 solid 1px;
+}
 
 .center{
     text-align: center;

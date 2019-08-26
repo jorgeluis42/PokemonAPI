@@ -3,16 +3,24 @@ h2 {
   justify-content: center;
 }
 
-body {
-  background: url(https://images.alphacoders.com/201/201831.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
-  
+#background {
+  background: url(https://images.alphacoders.com/201/201831.png);
+  background-size: 1000px;
+  background-position: 0 0;
+  background-repeat: repeat-y repeat-x;
+  animation: animate 10s linear infinite;
+  height: 100%;
+  width: 100%;
 }
 
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -250% 0%;
+  }
+}
 
 .red {
   color: white;
@@ -20,21 +28,21 @@ body {
   margin: 20px;
 }
 
-#searchlogo{
+#searchlogo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 250px;;
+  height: 250px;
   width: 300px;
 }
 
-#search{
- border-radius: 8px;
- border-color:transparent;
+#search {
+  border-radius: 8px;
+  border-color: transparent;
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   background-color: lightblue;
 }
 #pokeball {
@@ -45,27 +53,25 @@ input[type=text]:focus {
   padding-right: 3px;
 }
 #searchbutton {
- background-color: white;
+  background-color: white;
   border-radius: 8px;
   border-color: transparent;
 }
 
 #pokebox {
   display: inline-block;
-  border: #FFDC00 solid 1px;
-
+  border: #ffdc00 solid 1px;
 }
 
 p {
   text-align: center;
   color: black;
   font-weight: bold;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 12px;
 }
 
-.center{
-    text-align: center;
-    margin: auto;
+.center {
+  text-align: center;
+  margin: auto;
 }
-

@@ -5,21 +5,22 @@ h2 {
 
 #background {
   background: url(https://images.alphacoders.com/201/201831.png);
-  background-size: 1000px;
-  background-position: 0 0;
+  background-size:  2600px 850px, cover;
+  /* background-position:  500% 0; */
+  /* background-position: 0 0; */
+
   background-repeat: repeat-y repeat-x;
-  animation: animate 10s linear infinite;
-  height: 100%;
-  width: 100%;
+  animation: animate 15s linear infinite;
 }
 
 @keyframes animate {
   0% {
-    background-position: 0 0;
+    background-position: 0 15%;
   }
   100% {
-    background-position: -250% 0%;
+    background-position: 250% 15%;
   }
+  
 }
 
 .red {

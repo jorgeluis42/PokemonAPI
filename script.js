@@ -8,12 +8,18 @@ function getPokemonData(pokemon) {
 function displayData(data) {
   const imagelink = data.sprites.front_default;
   console.log(imagelink);
+  const pokediv = document.createElement('div')
   const image = document.createElement("img");
+  const pokename= document.createElement("p");
   image.setAttribute("id",'imageid');
   image.setAttribute("src",imagelink);
-  document.body.appendChild(image);
+  pokediv.setAttribute("id","pokebox");
   const namelink = data.name;
-  console.log(namelink)
+  pokename.innerText = namelink;
+  pokediv.appendChild(image);
+  pokediv.appendChild(pokename)
+  document.body.appendChild(pokediv);
+  console.log(pokename)
 }
 
 const searchbutton = document.getElementById("searchbutton");

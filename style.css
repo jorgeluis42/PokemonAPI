@@ -9,7 +9,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
+  
 }
+
+
 .red {
   color: white;
   font-size: 5px;
@@ -46,8 +50,18 @@ input[type=text]:focus {
   border-color: transparent;
 }
 
-#imageid {
+#pokebox {
+  display: inline-block;
   border: #FFDC00 solid 1px;
+
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
 }
 
 .center{

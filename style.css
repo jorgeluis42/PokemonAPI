@@ -62,12 +62,24 @@ input[type="text"]:focus {
   padding-bottom: 2px;
   padding-right: 3px;
 }
+#repeatball {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  padding-bottom: 2px;
+  padding-right: 3px;
+}
 #searchbutton {
   background-color: white;
   border-radius: 8px;
   border-color: transparent;
 }
 #allbutton {
+  background-color: white;
+  border-radius: 8px;
+  border-color: transparent;
+}
+#ranbutton {
   background-color: white;
   border-radius: 8px;
   border-color: transparent;

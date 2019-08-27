@@ -50,6 +50,18 @@ allbutton.onclick = () => {
   //   .catch(err => console.log(err));
 };
 
+const ranbutton = document.getElementById("ranbutton");
+ranbutton.onclick = () => {
+  let min=1; 
+  let max=807;  
+  let random = Math.floor(Math.random() * (+max - +min) + +min); 
+  getPokemonData(random).then(responseFromApi => {
+    console.log("HERE", responseFromApi)
+    const dataFromApi = responseFromApi.data;
+    displayData(dataFromApi);
+  })
+}
+
 const searchbutton = document.getElementById("searchbutton");
 
 searchbutton.onclick = () => {

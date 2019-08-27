@@ -1,3 +1,5 @@
+
+
 h2 {
   display: flex;
   justify-content: center;
@@ -59,10 +61,84 @@ input[type="text"]:focus {
   border-color: transparent;
 }
 
-#pokebox {
+#poison {
   display: inline-block;
-  border: #ffdc00 solid 1px;
+  border: thick double #3a1f5d;
 }
+
+#fire {
+  display: inline-block;
+  border:  thick double #e15249;
+}
+#water {
+  display: inline-block;
+  border: thick double #49beb7;
+}
+#bug {
+  display: inline-block;
+  border: thick double #91b029;
+}
+#flying {
+  display: inline-block;
+  border: thick double #e0e0e0;
+}
+#normal {
+  display: inline-block;
+  border: thick double #fcfafa;
+}
+#electric {
+  display: inline-block;
+  border: thick double #f7be16;
+}
+#ground {
+  display: inline-block;
+  border: thick double #d04925;
+}
+#ghost {
+  display: inline-block;
+  border: thick double white;
+  opacity: .7;
+}
+#dark {
+  display: inline-block;
+  border: thick double #160f30;
+}
+#fighting {
+  display: inline-block;
+  border: thick double #7e0a0a93;
+}
+#fairy {
+  display: inline-block;
+  border: thick double #f2c0ff;
+}
+#psychic {
+  display: inline-block;
+  border: thick double #543e5c;
+}
+#rock {
+  display: inline-block;
+  border: thick double #a2792f;
+}
+#grass {
+  display: inline-block;
+  border: thick double #45eba5;
+}
+
+#ice {
+  display: inline-block;
+  border: thick double #93deff;
+}
+#dragon {
+  display: inline-block;
+  border: thick double #e9290f;
+}
+#steel {
+  display: inline-block;
+  border: thick double #B0C4DE;
+}
+
+
+
 
 p {
   text-align: center;
